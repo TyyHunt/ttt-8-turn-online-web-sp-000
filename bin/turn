@@ -9,3 +9,4 @@ puts "Where would you like to play?"
 input = gets.strip
 index = input.to_i - 1
 move(board, index)
+display_board(board)
