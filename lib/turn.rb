@@ -39,7 +39,7 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-def turn
+def turn(board)
   puts "Welcome to Tic Tac Toe!"
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   display_board(board)
