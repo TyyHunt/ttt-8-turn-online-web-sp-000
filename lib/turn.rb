@@ -30,7 +30,7 @@ def valid_move?(board, index)
     false
   end
 end
-
+index = input.to_i - 1
 def move(board, index, value = "x")
   board[index] == value
 end
