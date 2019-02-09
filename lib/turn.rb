@@ -45,4 +45,5 @@ def turn
   display_board(board)
   puts "Where would you like to play?"
   puts "Please enter 1-9:"
+  input = gets.to_i
 end
