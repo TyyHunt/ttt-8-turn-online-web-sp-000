@@ -1,8 +1,9 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/turn'
+require_relative '../lib/turn.tb'
 
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 puts "Where would you like to play?"
+
