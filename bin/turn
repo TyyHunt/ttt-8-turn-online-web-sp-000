@@ -1,2 +1,6 @@
 #!/usr/bin/env ruby
 require_relative "./lib/turn.rb"
+
+puts "Welcome to Tic Tac Toe!"
+puts "Where would you like to play?"
+input = gets.strip.to_i - 1
