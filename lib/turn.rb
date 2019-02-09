@@ -33,6 +33,7 @@ end
 
 def move(board, index, value = "x")
   board[index] == value
+  return board
 end
 
 def input_to_index(input)
