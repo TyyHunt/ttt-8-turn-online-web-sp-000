@@ -3,7 +3,5 @@
 require_relative '../lib/turn.rb'
 
 turn
-input = gets.strip
-input_to_index
 move(board, index)
 display_board(board)
