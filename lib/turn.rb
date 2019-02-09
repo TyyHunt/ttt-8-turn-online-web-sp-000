@@ -8,8 +8,8 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-  def position_taken?(board, ind)
-    if array[ind] == " " || array[ind] == "" || array[ind] == nil
+  def position_taken?(board, position)
+    if board[position] == " " || board[position] == "" || board[position] == nil
       false
     else
       true
