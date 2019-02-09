@@ -36,8 +36,9 @@ def move(board, index, value = "x")
   return board
 end
 
-def input_to_index(input)
-  input.to_i - 1
+def input_to_index(user_input)
+  input = user_input.to_i -1
+  return input
 end
 
 def turn(board)
