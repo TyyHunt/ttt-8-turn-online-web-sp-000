@@ -36,8 +36,8 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, index, value = "x")
-  board[index] == value
+def move(board, new_num, value = "x")
+  board[new_num] == value
   return board
 end
 
