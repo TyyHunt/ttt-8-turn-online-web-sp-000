@@ -36,17 +36,17 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, new_num, value = "x")
-  board[new_num] == value
+def move(board, index, value = "x")
+  board[index] == value
   return board
 end
 
 def turn(board)
   puts "Please enter 1-9:"
   num = gets.chomp
-  new_num = input_to_index(num)
-  if (valid_move?(board,new_num)) == true
-    move(board, new_num)
+  index= input_to_index(num)
+  if (valid_move?(board,index)) == true
+    move(board, index)
     display_board(board)
   else
     turn(board)
